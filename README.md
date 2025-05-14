@@ -1,6 +1,6 @@
 # LeetCode Solutions by Jackson Bryant
 
-A personal collection of LeetCode solutions organized by topic and written in TypeScript. This repo helps track my problem-solving progress and prepare for technical interviews.
+A growing collection of TypeScript-based LeetCode solutions organized by topic. Built to improve my problem-solving skills and prepare for coding interviews.
 
 ---
 
@@ -21,25 +21,32 @@ A personal collection of LeetCode solutions organized by topic and written in Ty
 
 ### 📁 Folder Structure
 
-Each folder represents a topic. File names follow the snake_case convention for each problem title.
+Solutions are grouped by category
+leetcode-solutions/
+├── arrays/
+│ └── two_sum.ts
+├── strings/
+├── dynamic_programming/
+├── trees/
 
 ---
 
 ### 🛠 Language
 
-- **TypeScript**
-- Occasional use of **Python** or **C++** for variation
+- TypeScript (primary)
+- Future plans: Python/C++ for practice
 
 ---
 
-### 🧠 How I Use This
+### 💡 Why This Exists
 
-- Solve 2–3 problems daily
-- Add brief comments in each file explaining logic
-- Track problem status in [Notion Tracker](#) ← *(link your Notion if public)*
+This repo helps me:
+- Track my daily LeetCode progress
+- Identify problem patterns (two pointers, sliding window, etc.)
+- Build strong fundamentals for software engineering interviews
 
 ---
 
-### 📌 Goal
+### 🧠 Goal
 
-Master the top 150 LeetCode problems and recognize core patterns used in real interviews.
+Solve the top 150 LeetCode problems in 2025 and sharpen technical communication skills through clean code and pattern recognition.
