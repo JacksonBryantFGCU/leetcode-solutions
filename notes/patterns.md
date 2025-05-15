@@ -184,3 +184,22 @@ This file tracks common problem-solving patterns and examples to build long-term
 - ✅ [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) – Easy  
 - ✅ [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) – Easy  
 - ✅ [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) – Easy
+
+---
+
+## 🧠 Binary Search Variants
+
+**When to use:**  
+- Searching in sorted arrays, rotated arrays, or when the problem has a monotonic property  
+- You’re narrowing a search range using mid-point logic
+
+**Core Ideas:**  
+- Use `while (left <= right)` or `while (left < right)`  
+- Carefully update `left` and `right` based on comparisons  
+- Watch for rotated/split arrays and directional peaks
+
+**Problems:**
+- ✅ [Binary Search](https://leetcode.com/problems/binary-search/) – Easy  
+- ✅ [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) – Medium  
+- ✅ [Find Peak Element](https://leetcode.com/problems/find-peak-element/) – Medium
+
