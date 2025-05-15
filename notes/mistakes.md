@@ -86,3 +86,15 @@
 ## 🔁 Merge Two Sorted Lists
 - Forgot to connect remaining nodes after one list ends
 - Missed dummy node → caused edge cases when list1 or list2 was null
+
+## 🔍 Binary Search
+- Off-by-one error: used `left < right` instead of `left <= right`
+- Missed returning `-1` when target not found
+
+## 🔄 Search in Rotated Sorted Array
+- Compared against wrong half when array was rotated
+- Forgot to check if left-to-mid was sorted before comparing target
+
+## ⛰️ Find Peak Element
+- Assumed global max instead of local peak
+- Forgot to return `left` as final result after loop
