@@ -220,3 +220,22 @@ This file tracks common problem-solving patterns and examples to build long-term
 **Problems:**
 - ✅ [Course Schedule](https://leetcode.com/problems/course-schedule/) – Medium  
 - ✅ [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) – Medium
+
+---
+
+## 🧠 Backtracking
+
+**When to use:**  
+- Generating all combinations, permutations, or paths  
+- Problems with decision trees and pruning  
+- Word search, N-Queens, Sudoku-style problems
+
+**Core Ideas:**  
+- Add to path, recurse, and remove (backtrack)  
+- Track state via indices, visited markers, or totals  
+- Base case pushes to result; avoid mutating shared state
+
+**Problems:**
+- ✅ [Subsets](https://leetcode.com/problems/subsets/) – Medium  
+- ✅ [Combination Sum](https://leetcode.com/problems/combination-sum/) – Medium  
+- ✅ [Word Search](https://leetcode.com/problems/word-search/) – Medium
