@@ -10,3 +10,15 @@
 
 ## 🔄 Remove Nth Node From End
 - Initially forgot to use dummy node → edge case with head removal failed
+
+## 🔁 Max Consecutive Ones III
+- Mistakenly tried to reset window on each 0 → needed to only shrink when k < 0
+- Insight: you can “spend” flips but must return them when shrinking
+
+## 🔁 Permutation in String
+- Initially compared maps with object equality — failed
+- Solution: use array of 26 and `.join()` to compare frequency maps
+
+## 🚪 Sliding Window Maximum
+- Forgot to pop from the front when index was out of window range
+- Missed that the deque should store indices, not values
