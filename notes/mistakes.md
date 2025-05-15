@@ -51,3 +51,14 @@
   - After merge
 - Forgot to push the new interval after merging → caused missing intervals in result
 
+## 🌊 Number of Islands
+- Initially forgot to mark grid cells as visited, leading to infinite recursion
+- DFS must mutate the grid or use a visited set to prevent re-traversal
+
+## 📏 Max Area of Island
+- Forgot to accumulate area by returning +1 from each DFS call
+- Must update `maxArea = Math.max(maxArea, dfs(...))` on each component
+
+## 🧬 Clone Graph
+- Tried cloning without a visited map → caused infinite recursion on cyclic graphs
+- Key realization: you must track original node → cloned node in a Map to avoid revisiting
