@@ -203,3 +203,20 @@ This file tracks common problem-solving patterns and examples to build long-term
 - ✅ [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) – Medium  
 - ✅ [Find Peak Element](https://leetcode.com/problems/find-peak-element/) – Medium
 
+---
+
+## 🧠 Topological Sort
+
+**When to use:**  
+- When you're asked to determine a valid order of tasks  
+- When the input is a directed graph with dependencies  
+- When you need to detect a cycle in a dependency chain
+
+**Core Ideas:**  
+- Use DFS with 3-state visited array (unvisited, visiting, visited)  
+- Detect back edges → cycle  
+- Build the post-order DFS result in reverse for ordering
+
+**Problems:**
+- ✅ [Course Schedule](https://leetcode.com/problems/course-schedule/) – Medium  
+- ✅ [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) – Medium
