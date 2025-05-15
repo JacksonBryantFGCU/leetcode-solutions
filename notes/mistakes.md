@@ -98,3 +98,11 @@
 ## ⛰️ Find Peak Element
 - Assumed global max instead of local peak
 - Forgot to return `left` as final result after loop
+
+## 🧭 Course Schedule
+- Forgot to track 3 visited states → led to missed cycle detection
+- Forgot to check every node in case of disconnected components
+
+## 📚 Course Schedule II
+- Didn't reverse the post-order DFS result → gave incorrect order
+- Used a result array instead of a stack (acceptable, but be consistent)
