@@ -165,3 +165,22 @@ This file tracks common problem-solving patterns and examples to build long-term
 - ✅ [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) – Easy  
 - ✅ [House Robber](https://leetcode.com/problems/house-robber/) – Medium  
 - ✅ [House Robber II](https://leetcode.com/problems/house-robber-ii/) – Medium
+
+---
+
+## 🧠 Linked Lists
+
+**When to use:**  
+- When you need constant-time insertions or deletions without shifting  
+- When recursion or in-place pointer manipulation is expected  
+- For problems that require scanning, reversing, merging, or detecting cycles
+
+**Core Ideas:**  
+- Use dummy node to simplify logic  
+- Use fast/slow pointers for cycle/midpoint  
+- Be careful with null checks and pointer updates
+
+**Problems:**
+- ✅ [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) – Easy  
+- ✅ [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) – Easy  
+- ✅ [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) – Easy
