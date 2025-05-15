@@ -75,3 +75,14 @@
 - Missed edge case where nums.length === 1
 - Initially didn’t realize you must run `rob()` twice to skip either first or last house (not both)
 
+## 🔁 Reverse Linked List
+- Forgot to advance `curr` after setting `curr.next = prev`
+- Accidentally reversed `prev = curr.next` → caused loop
+
+## 🔁 Linked List Cycle
+- Forgot to check that `fast` and `fast.next` are not null
+- Accidentally returned true when slow !== fast
+
+## 🔁 Merge Two Sorted Lists
+- Forgot to connect remaining nodes after one list ends
+- Missed dummy node → caused edge cases when list1 or list2 was null
