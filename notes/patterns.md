@@ -21,6 +21,8 @@ This file tracks common problem-solving patterns and examples to build long-term
 1. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) – Easy  
 2. [3Sum](https://leetcode.com/problems/3sum/) – Medium  
 3. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) – Medium
+4. [Remove Nth Node from End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) - Medium
+
 
 ---
 
@@ -41,5 +43,6 @@ This file tracks common problem-solving patterns and examples to build long-term
 1. [Two Sum](https://leetcode.com/problems/two-sum/) – Easy  
 2. [Group Anagrams](https://leetcode.com/problems/group-anagrams/) – Medium  
 3. [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) – Hard
+4. [Longest Substring without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) - Medium
 
 ---
