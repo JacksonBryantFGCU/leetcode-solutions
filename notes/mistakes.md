@@ -22,3 +22,15 @@
 ## 🚪 Sliding Window Maximum
 - Forgot to pop from the front when index was out of window range
 - Missed that the deque should store indices, not values
+
+## 🌡️ Daily Temperatures
+- Initially forgot to store indices in stack — used values directly which broke logic
+- Missed when to pop from stack → only pop when current is **greater**
+
+## 🧱 Implement Queue Using Stacks
+- Tried to push directly to output stack — broke FIFO
+- Fixed by always pushing to `input`, then shifting to `output` on pop/peek
+
+## 🕒 Number of Recent Calls
+- Forgot to shift expired timestamps outside the 3000ms window
+- Must remove values from front of queue if they’re older than (t - 3000)
