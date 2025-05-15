@@ -62,3 +62,16 @@
 ## 🧬 Clone Graph
 - Tried cloning without a visited map → caused infinite recursion on cyclic graphs
 - Key realization: you must track original node → cloned node in a Map to avoid revisiting
+
+## 🪜 Climbing Stairs
+- Originally used recursion — too slow without memoization
+- Fixed by switching to bottom-up with two rolling variables
+
+## 🏠 House Robber
+- Tried to use a full `dp[]` array → unnecessary space usage
+- Forgot to update `prev2` before assigning `prev1`, causing logic bug
+
+## 🔄 House Robber II
+- Missed edge case where nums.length === 1
+- Initially didn’t realize you must run `rob()` twice to skip either first or last house (not both)
+
