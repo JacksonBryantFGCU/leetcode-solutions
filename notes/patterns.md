@@ -92,3 +92,39 @@ This file tracks common problem-solving patterns and examples to build long-term
 1. ✅ [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) – Medium  
 2. ✅ [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) – Easy  
 3. ✅ [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) – Easy
+
+---
+
+## 🧠 Array Manipulation / Prefix Techniques
+
+**When to use:**  
+- When transforming an array without extra space  
+- When division is disallowed or inefficient  
+- When you need prefix and/or postfix relationships
+
+**Core idea:**  
+- Use one pass to build prefix products  
+- Use a second pass for postfix multiplication  
+- Avoid division by tracking state manually
+
+**Problems:**
+- ✅ [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) – Medium
+
+---
+
+## 🧠 Intervals & Merging
+
+**When to use:**  
+- Merging overlapping intervals  
+- Inserting new intervals into sorted ranges  
+- Finding gaps, overlaps, or ranges on a line
+
+**Core idea:**  
+- Sort by interval start time  
+- Use greedy sweep or conditionals to merge/insert intervals  
+- Watch edge cases where intervals just touch or completely overlap
+
+**Problems:**
+- ✅ [Merge Intervals](https://leetcode.com/problems/merge-intervals/) – Medium  
+- ✅ [Insert Interval](https://leetcode.com/problems/insert-interval/) – Medium
+
