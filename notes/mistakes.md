@@ -106,3 +106,15 @@
 ## 📚 Course Schedule II
 - Didn't reverse the post-order DFS result → gave incorrect order
 - Used a result array instead of a stack (acceptable, but be consistent)
+
+## 🧩 Subsets
+- Initially mutated `path` directly without copying → shared state in results
+- Forgot to backtrack (`path.pop()`)
+
+## ➕ Combination Sum
+- Excluded candidates too early → missed duplicate use
+- Forgot base case for total > target → caused infinite recursion
+
+## 🔤 Word Search
+- Didn’t mark visited → allowed revisiting same cell
+- Forgot to reset visited cell (backtrack) after exploring path
