@@ -34,3 +34,20 @@
 ## 🕒 Number of Recent Calls
 - Forgot to shift expired timestamps outside the 3000ms window
 - Must remove values from front of queue if they’re older than (t - 3000)
+
+## ✖️ Product of Array Except Self
+- Forgot to initialize the result array with `1`, which broke prefix/postfix logic
+- Tried using division first → failed test cases where input includes zero
+
+## 📚 Merge Intervals
+- Missed the need to sort intervals before merging
+- Failed when adjacent intervals shared a boundary (e.g. `[1,4], [4,5]`)
+- Fixed by checking if `merged[i-1][1] >= current[0]`
+
+## ➕ Insert Interval
+- Tried to merge during iteration without isolating 3 phases:
+  - Before merge
+  - Merging overlap
+  - After merge
+- Forgot to push the new interval after merging → caused missing intervals in result
+
