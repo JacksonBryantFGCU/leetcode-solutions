@@ -148,3 +148,20 @@ This file tracks common problem-solving patterns and examples to build long-term
 - ✅ [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) – Medium  
 - ✅ [Clone Graph](https://leetcode.com/problems/clone-graph/) – Medium
 
+---
+
+## 🧠 Dynamic Programming (1D)
+
+**When to use:**  
+- Problems with overlapping subproblems and optimal substructure  
+- You’re asked to maximize/minimize something or count ways to do something
+
+**Core Ideas:**  
+- Use a `dp[]` array or rolling variables to store solutions to smaller subproblems  
+- Bottom-up tabulation avoids recursion depth issues  
+- Track current, previous, and two-back states
+
+**Problems:**
+- ✅ [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) – Easy  
+- ✅ [House Robber](https://leetcode.com/problems/house-robber/) – Medium  
+- ✅ [House Robber II](https://leetcode.com/problems/house-robber-ii/) – Medium
