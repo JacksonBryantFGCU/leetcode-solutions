@@ -75,3 +75,20 @@ This file tracks common problem-solving patterns and examples to build long-term
 
 **Problems:**
 1. ✅ [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) – Hard
+
+---
+
+## 🧠 Stack / Queue
+
+**When to use:**
+- Stack: next greater/smaller element, backtracking, undo/redo
+- Queue: streaming values, fixed-time windows, BFS-like traversal
+
+**Core ideas:**
+- Stack: push/pop based on logic, often used with indices
+- Queue: simulate a buffer, sliding time window, or level-order flow
+
+**Problems:**
+1. ✅ [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) – Medium  
+2. ✅ [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) – Easy  
+3. ✅ [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) – Easy
