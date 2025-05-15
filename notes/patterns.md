@@ -128,3 +128,23 @@ This file tracks common problem-solving patterns and examples to build long-term
 - ✅ [Merge Intervals](https://leetcode.com/problems/merge-intervals/) – Medium  
 - ✅ [Insert Interval](https://leetcode.com/problems/insert-interval/) – Medium
 
+---
+
+## 🧠 Graph Traversal (DFS/BFS)
+
+**When to use:**  
+- Problems involving connected components, shortest paths, or traversing all nodes  
+- Grid-based problems with directional movement (up/down/left/right)  
+- Cloning, component labeling, or reachability problems
+
+**Core Ideas:**
+- Use a visited set or map to avoid cycles
+- Use DFS (recursion or stack) for deep traversal
+- Use BFS (queue) for shortest path or level-by-level search
+- Grids can be treated as undirected graphs with 4-directional neighbors
+
+**Problems:**
+- ✅ [Number of Islands](https://leetcode.com/problems/number-of-islands/) – Medium  
+- ✅ [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) – Medium  
+- ✅ [Clone Graph](https://leetcode.com/problems/clone-graph/) – Medium
+
