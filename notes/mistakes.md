@@ -130,3 +130,15 @@
 ## 🔁 Replace Words
 - Used startsWith instead of full trie traversal → TLE
 - Didn’t stop early when root match was found
+
+## 🪙 Coin Change
+- Forgot to initialize dp[0] = 0 → caused incorrect base case
+- Checked `dp[a - coin]` without validating `a - coin >= 0`
+
+## 📈 Longest Increasing Subsequence
+- Overwrote `dp[i]` without using `Math.max()`
+- Tried binary search approach too early without full understanding
+
+## 🧵 Word Break
+- Didn’t slice `s.slice(j, i)` properly → off-by-one bug
+- Didn’t break inner loop after setting `dp[i] = true`
