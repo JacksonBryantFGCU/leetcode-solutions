@@ -239,3 +239,22 @@ This file tracks common problem-solving patterns and examples to build long-term
 - ✅ [Subsets](https://leetcode.com/problems/subsets/) – Medium  
 - ✅ [Combination Sum](https://leetcode.com/problems/combination-sum/) – Medium  
 - ✅ [Word Search](https://leetcode.com/problems/word-search/) – Medium
+
+---
+
+## 🧠 Trie / Prefix Tree
+
+**When to use:**  
+- Fast prefix lookups or autocomplete  
+- Dictionary matching and spell-check  
+- Wildcard search (with DFS logic)
+
+**Core Ideas:**  
+- Build character nodes from root to leaf  
+- Use `Map<char, TrieNode>` for flexibility  
+- Use flags like `isWord` to detect terminal nodes
+
+**Problems:**
+- ✅ [Implement Trie](https://leetcode.com/problems/implement-trie-prefix-tree/) – Medium  
+- ✅ [Replace Words](https://leetcode.com/problems/replace-words/) – Medium  
+- ✅ [Add and Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/) – Medium
