@@ -258,3 +258,22 @@ This file tracks common problem-solving patterns and examples to build long-term
 - ✅ [Implement Trie](https://leetcode.com/problems/implement-trie-prefix-tree/) – Medium  
 - ✅ [Replace Words](https://leetcode.com/problems/replace-words/) – Medium  
 - ✅ [Add and Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/) – Medium
+
+---
+
+## 🧠 Dynamic Programming (Intermediate)
+
+**When to use:**  
+- When the problem involves building a value from many paths or segments  
+- When string, coin, or array problems involve multiple transitions
+
+**Core Ideas:**  
+- Use `dp[i]` to store optimal sub-solutions  
+- For coin change, think in terms of min steps to a total  
+- For LIS, track max sequence lengths  
+- For string break, think: "can I reach index `i`?"
+
+**Problems:**
+- ✅ [Coin Change](https://leetcode.com/problems/coin-change/) – Medium  
+- ✅ [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) – Medium  
+- ✅ [Word Break](https://leetcode.com/problems/word-break/) – Medium
