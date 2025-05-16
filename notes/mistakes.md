@@ -118,3 +118,15 @@
 ## 🔤 Word Search
 - Didn’t mark visited → allowed revisiting same cell
 - Forgot to reset visited cell (backtrack) after exploring path
+
+## 🔡 Implement Trie
+- Forgot to set `isWord = true` at the end of insert
+- Used plain object instead of `Map` → missed undefined check
+
+## ✍️ Add and Search Word
+- Skipped DFS for `.` character — wildcard search failed
+- Forgot to return `true` if **any** path matches — not just the first
+
+## 🔁 Replace Words
+- Used startsWith instead of full trie traversal → TLE
+- Didn’t stop early when root match was found
