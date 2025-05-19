@@ -154,3 +154,11 @@
 ## ✍️ Edit Distance
 - Forgot to fill base rows/cols → undefined errors
 - Misused i/j offsets → compared wrong characters (i vs i-1)
+
+## 👽 Alien Dictionary
+- Forgot to check if w1 > w2 && w1 startsWith w2 → invalid order
+- Didn’t handle cycle detection properly (res length !== indegree map size)
+
+## 🔌 Critical Connections
+- Mixed up disc vs low values → missed articulation points
+- Didn’t track parent correctly in DFS → false positives
