@@ -295,3 +295,21 @@ This file tracks common problem-solving patterns and examples to build long-term
 - ✅ [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) – Medium  
 - ✅ [Decode Ways](https://leetcode.com/problems/decode-ways/) – Medium  
 - ✅ [Edit Distance](https://leetcode.com/problems/edit-distance/) – Hard
+
+---
+
+## 🧠 Advanced Graphs
+
+**When to use:**  
+- When determining custom order (e.g. alphabet, tasks)  
+- When identifying critical nodes or edges  
+- When graphs are implied by ordering or structure
+
+**Core Ideas:**  
+- Kahn’s Algorithm for topological sort  
+- DFS with discovery and low-link tracking for articulation points  
+- Build graph manually before traversal
+
+**Problems:**
+- ✅ [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) – Hard  
+- ✅ [Critical Connections](https://leetcode.com/problems/critical-connections-in-a-network/) – Hard
