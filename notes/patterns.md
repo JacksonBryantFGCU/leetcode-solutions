@@ -277,3 +277,21 @@ This file tracks common problem-solving patterns and examples to build long-term
 - ✅ [Coin Change](https://leetcode.com/problems/coin-change/) – Medium  
 - ✅ [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) – Medium  
 - ✅ [Word Break](https://leetcode.com/problems/word-break/) – Medium
+
+---
+
+## 🧠 Dynamic Programming – String / 2D Table
+
+**When to use:**  
+- When solving string transformation, segmentation, or partitioning problems  
+- When the state depends on substring slices or previous character matches
+
+**Core Ideas:**  
+- 1D DP for left-to-right decisions (Decode Ways)  
+- 2D DP for edit distance or table of character comparisons  
+- Use helper functions like isPalindrome or slicing
+
+**Problems:**
+- ✅ [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) – Medium  
+- ✅ [Decode Ways](https://leetcode.com/problems/decode-ways/) – Medium  
+- ✅ [Edit Distance](https://leetcode.com/problems/edit-distance/) – Hard
