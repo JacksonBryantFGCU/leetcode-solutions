@@ -142,3 +142,15 @@
 ## 🧵 Word Break
 - Didn’t slice `s.slice(j, i)` properly → off-by-one bug
 - Didn’t break inner loop after setting `dp[i] = true`
+
+## 🧵 Palindrome Partitioning
+- Forgot to backtrack path → included duplicates in result
+- Used `s.slice(start, end)` instead of `end + 1` → off-by-one bug
+
+## 🔢 Decode Ways
+- Missed `dp[1] = 1` base case → crashed on single-digit strings
+- Parsed `slice(i-2, i)` but didn’t check bounds
+
+## ✍️ Edit Distance
+- Forgot to fill base rows/cols → undefined errors
+- Misused i/j offsets → compared wrong characters (i vs i-1)
