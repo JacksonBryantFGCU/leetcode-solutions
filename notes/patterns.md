@@ -331,3 +331,21 @@ This file tracks common problem-solving patterns and examples to build long-term
 - ✅ [Single Number](https://leetcode.com/problems/single-number/) – Easy  
 - ✅ [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) – Easy  
 - ✅ [Reverse Bits](https://leetcode.com/problems/reverse-bits/) – Easy
+
+---
+
+## 🧠 SQL Query Patterns
+
+**When to use:**  
+- Analyzing table relationships, rankings, and aggregations
+
+**Core Ideas:**  
+- `JOIN`: Combine rows across tables using common keys  
+- `RANK()`, `DENSE_RANK()`: Assign ranks across partitions or ordered results  
+- Subqueries: Use nested queries for filtering, comparisons, or lookups  
+- `LIMIT`, `OFFSET`: Control result set length
+
+**SQL Problems:**
+- ✅ Combine Two Tables – LEFT JOIN  
+- ✅ Second Highest Salary – Subquery + MAX  
+- ✅ Rank Scores – Window Function
