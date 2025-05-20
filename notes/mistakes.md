@@ -186,3 +186,15 @@
 ## 🧮 Pow(x, n)
 - Missed negative exponent → returned wrong value
 - Used full recursion instead of halving → TLE
+
+## 🏃 Jump Game
+- Stopped early before checking last index
+- Didn't update reachable properly — used max only once
+
+## 📆 Merge Intervals
+- Forgot to sort by start → merge logic broke
+- Didn't merge when intervals touched (e.g. [1,2], [2,3])
+
+## 🔁 Remove Duplicates II
+- Used wrong index offset: `insert - 1` instead of `insert - 2`
+- Didn’t return new length correctly
