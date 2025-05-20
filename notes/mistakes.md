@@ -174,3 +174,15 @@
 ## 🧠 Reverse Bits
 - Used `>>` instead of `>>>` → broke on sign bit
 - Forgot to return `>>> 0` to convert result to unsigned
+
+## ➕ Add Binary
+- Forgot to parse chars to int → did string concat
+- Didn’t handle uneven lengths → gave incorrect carry
+
+## ➗ Divide Two Integers
+- Forgot overflow case `INT_MIN / -1`
+- Bit shifted into negative → infinite loop
+
+## 🧮 Pow(x, n)
+- Missed negative exponent → returned wrong value
+- Used full recursion instead of halving → TLE
