@@ -364,3 +364,22 @@ This file tracks common problem-solving patterns and examples to build long-term
 - Tell me about a conflict
 - Tell me about something you built
 - Tell me about something you taught
+
+---
+
+## 🧠 Math / Overflow Logic
+
+**When to use:**  
+- Avoiding built-in operators  
+- Bit manipulation for performance  
+- Edge-safe math under constraints
+
+**Core Ideas:**  
+- Add Binary: work from right to left with carry  
+- Divide Integers: bit shifts to simulate fast subtraction  
+- Pow(x, n): log time recursion via squaring
+
+**Problems:**
+- ✅ [Add Binary](https://leetcode.com/problems/add-binary/) – Easy  
+- ✅ [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) – Medium  
+- ✅ [Pow(x, n)](https://leetcode.com/problems/powx-n/) – Medium
