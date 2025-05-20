@@ -349,3 +349,18 @@ This file tracks common problem-solving patterns and examples to build long-term
 - ✅ Combine Two Tables – LEFT JOIN  
 - ✅ Second Highest Salary – Subquery + MAX  
 - ✅ Rank Scores – Window Function
+
+---
+
+## 🗣️ Behavioral Interview Patterns
+
+- Use STAR format to tell stories clearly
+- Keep answers to 60–90 seconds
+- Focus on your individual actions
+- Always share results + impact (numbers, feedback, results)
+
+**Prompt Examples:**
+- Tell me about a challenge
+- Tell me about a conflict
+- Tell me about something you built
+- Tell me about something you taught
