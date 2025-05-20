@@ -420,3 +420,22 @@ This file tracks common problem-solving patterns and examples to build long-term
 - ✅ [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) – Easy  
 - ✅ [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) – Hard  
 - ✅ [Longest Substring with K Distinct](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) – Hard
+
+---
+
+## 🧠 BFS – Shortest Path
+
+**When to use:**  
+- Uniform-weight shortest paths  
+- Multi-source fill problems  
+- Grid-based traversal from specific points
+
+**Core Ideas:**  
+- Initialize queue with all sources (multi-source BFS)  
+- Track visited separately or overwrite in place  
+- Include distance in queue if needed (e.g. [row, col, dist])
+
+**Problems:**
+- ✅ [01 Matrix](https://leetcode.com/problems/01-matrix/) – Medium  
+- ✅ [Walls and Gates](https://leetcode.com/problems/walls-and-gates/) – Medium  
+- ✅ [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) – Medium

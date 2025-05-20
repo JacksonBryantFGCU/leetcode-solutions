@@ -210,3 +210,15 @@
 ## 🔠 Longest Substring K Distinct
 - Didn’t remove characters from `Map` when count hit 0
 - Used `Set` instead of `Map` → couldn’t track frequency
+
+## 🧮 01 Matrix
+- Didn't initialize all 0s as BFS roots
+- Forgot to check if new cell has shorter distance → infinite loop
+
+## 🚪 Walls and Gates
+- Visited cells multiple times → over-counted distance
+- Used DFS by mistake — returned incorrect results
+
+## 🔲 Binary Matrix Shortest Path
+- Missed diagonal directions → invalid shortest path
+- Forgot to include distance in queue → couldn’t track path length
