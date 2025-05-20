@@ -162,3 +162,15 @@
 ## 🔌 Critical Connections
 - Mixed up disc vs low values → missed articulation points
 - Didn’t track parent correctly in DFS → false positives
+
+## 🧠 Single Number
+- Forgot that XOR cancels itself → tried to use a Set instead
+- Used `^` across strings instead of numbers
+
+## 🧠 Number of 1 Bits
+- Used `n >> 1` which causes infinite loop on negatives
+- Forgot to use unsigned right shift (`n >>> 1`)
+
+## 🧠 Reverse Bits
+- Used `>>` instead of `>>>` → broke on sign bit
+- Forgot to return `>>> 0` to convert result to unsigned
