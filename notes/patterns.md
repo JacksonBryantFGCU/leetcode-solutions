@@ -313,3 +313,21 @@ This file tracks common problem-solving patterns and examples to build long-term
 **Problems:**
 - ✅ [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) – Hard  
 - ✅ [Critical Connections](https://leetcode.com/problems/critical-connections-in-a-network/) – Hard
+
+---
+
+## 🧠 Bit Manipulation
+
+**When to use:**  
+- Problems involving XOR, binary toggles, power of two, or bit operations  
+- Space-efficient solutions using bit flags or bitsets
+
+**Core Ideas:**  
+- XOR: cancels duplicates (`a ^ a = 0`)  
+- Count 1s: shift and mask OR use `n & (n - 1)` trick  
+- Reversing bits: shift result left, OR in `n & 1`, shift n right
+
+**Problems:**
+- ✅ [Single Number](https://leetcode.com/problems/single-number/) – Easy  
+- ✅ [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) – Easy  
+- ✅ [Reverse Bits](https://leetcode.com/problems/reverse-bits/) – Easy
