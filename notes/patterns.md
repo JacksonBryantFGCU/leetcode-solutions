@@ -383,3 +383,22 @@ This file tracks common problem-solving patterns and examples to build long-term
 - ✅ [Add Binary](https://leetcode.com/problems/add-binary/) – Easy  
 - ✅ [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) – Medium  
 - ✅ [Pow(x, n)](https://leetcode.com/problems/powx-n/) – Medium
+
+---
+
+## 🧠 Greedy + In-Place Array Logic
+
+**When to use:**  
+- You need constant space and don't revisit elements  
+- Problem rewards making best local move  
+- Arrays must be processed with O(1) extra space
+
+**Core Ideas:**  
+- Use a write/insert pointer for overwrites  
+- Greedy reachability or merging via comparisons  
+- Sort → Sweep line for intervals
+
+**Problems:**
+- ✅ [Jump Game](https://leetcode.com/problems/jump-game/) – Medium  
+- ✅ [Merge Intervals](https://leetcode.com/problems/merge-intervals/) – Medium  
+- ✅ [Remove Duplicates II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) – Medium
