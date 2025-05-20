@@ -234,3 +234,15 @@
 ## 🔗 Linked List in Binary Tree
 - Checked only one subtree instead of both
 - Didn’t restart DFS for non-root matches → missed valid paths
+
+## 🧮 Top K Frequent Elements
+- Tried to sort keys instead of frequency values
+- Used incorrect frequency map access in heap
+
+## 🔢 Kth Largest Element
+- Indexed result with `k` instead of `k - 1`
+- Forgot to reverse sort → returned Kth smallest
+
+## 🪨 Last Stone Weight
+- Forgot to sort after re-inserting new stone
+- Didn’t check for empty heap → returned undefined

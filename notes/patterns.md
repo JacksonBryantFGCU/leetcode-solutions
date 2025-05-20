@@ -458,3 +458,21 @@ This file tracks common problem-solving patterns and examples to build long-term
 - ✅ Convert Sorted List to BST – Medium  
 - ✅ Flatten Binary Tree to Linked List – Medium  
 - ✅ Linked List in Binary Tree – Medium
+
+---
+
+## 🧠 Heap / Priority Queue
+
+**When to use:**  
+- Maintain top-K elements or simulate priority  
+- Efficiently fetch or update max/min values from a dynamic set
+
+**Core Ideas:**  
+- Use a Map to count frequency → push to heap  
+- Min-heap for “K largest” (remove smaller)  
+- Max-heap for greedy reduction
+
+**Problems:**
+- ✅ [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) – Medium  
+- ✅ [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) – Medium  
+- ✅ [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) – Easy
