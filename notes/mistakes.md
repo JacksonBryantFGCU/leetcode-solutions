@@ -198,3 +198,15 @@
 ## 🔁 Remove Duplicates II
 - Used wrong index offset: `insert - 1` instead of `insert - 2`
 - Didn’t return new length correctly
+
+## 🪟 Max Average Subarray
+- Re-calculated full sum every time → TLE
+- Forgot to divide by `k` after max
+
+## 🧊 Sliding Window Maximum
+- Pushed values instead of indices → failed removal
+- Forgot to remove out-of-window elements from front of deque
+
+## 🔠 Longest Substring K Distinct
+- Didn’t remove characters from `Map` when count hit 0
+- Used `Set` instead of `Map` → couldn’t track frequency

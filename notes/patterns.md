@@ -402,3 +402,21 @@ This file tracks common problem-solving patterns and examples to build long-term
 - ✅ [Jump Game](https://leetcode.com/problems/jump-game/) – Medium  
 - ✅ [Merge Intervals](https://leetcode.com/problems/merge-intervals/) – Medium  
 - ✅ [Remove Duplicates II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) – Medium
+
+---
+
+## 🧠 Advanced Sliding Window
+
+**When to use:**  
+- Problems involve moving ranges, max/min, or frequency tracking  
+- Need O(n) solutions with smart state tracking inside window
+
+**Core Ideas:**  
+- Use `Map` for frequency counts  
+- Use `Deque` to maintain sorted/max state  
+- Shrink window until constraint is valid
+
+**Problems:**
+- ✅ [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) – Easy  
+- ✅ [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) – Hard  
+- ✅ [Longest Substring with K Distinct](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) – Hard
