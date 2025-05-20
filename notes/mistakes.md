@@ -222,3 +222,15 @@
 ## 🔲 Binary Matrix Shortest Path
 - Missed diagonal directions → invalid shortest path
 - Forgot to include distance in queue → couldn’t track path length
+
+## 🔁 Sorted List to BST
+- Forgot to cut left half of list → caused infinite recursion
+- Tried to find mid with array logic instead of slow/fast pointers
+
+## 📉 Flatten Binary Tree
+- Overwrote right pointer before saving it
+- Traversed left but didn’t attach right subtree at correct place
+
+## 🔗 Linked List in Binary Tree
+- Checked only one subtree instead of both
+- Didn’t restart DFS for non-root matches → missed valid paths

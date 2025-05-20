@@ -439,3 +439,22 @@ This file tracks common problem-solving patterns and examples to build long-term
 - ✅ [01 Matrix](https://leetcode.com/problems/01-matrix/) – Medium  
 - ✅ [Walls and Gates](https://leetcode.com/problems/walls-and-gates/) – Medium  
 - ✅ [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) – Medium
+
+---
+
+## 🧠 Linked List ↔ Tree Transformations
+
+**When to use:**  
+- Transforming sorted data to binary trees  
+- Flattening hierarchical structures  
+- Finding linked path in trees
+
+**Core Ideas:**  
+- Use fast/slow pointers to break list  
+- Post-order tree traversal for in-place pointer changes  
+- Check path match recursively from every node
+
+**Problems:**
+- ✅ Convert Sorted List to BST – Medium  
+- ✅ Flatten Binary Tree to Linked List – Medium  
+- ✅ Linked List in Binary Tree – Medium
