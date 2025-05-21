@@ -50,3 +50,13 @@ This repo helps me:
 ### 🧠 Goal
 
 Solve the top 150 LeetCode problems in 2025 and sharpen technical communication skills through clean code and pattern recognition.
+
+---
+
+### Setup Instructions
+
+```
+git clone https://github.com/JacksonBryantFGCU/leetcode-solutions.git
+cd leetcode-solutions
+npm install
+```
